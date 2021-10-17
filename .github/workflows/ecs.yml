@@ -5,7 +5,7 @@ name: Automate ECS Deployments (Push new Image and re-deploy task)
 
 on:
   push:
-    branches: [  ]
+    branches: [ main ]
 
 
 
