@@ -45,7 +45,7 @@ jobs:
           
       - name: Download task definition
         run: |
-          aws ecs describe-task-definition --task-definition service \
+          aws ecs describe-task-definition --task-definition backend_example_app_family:3 \
           --query taskDefinition > task-definition.json
           
           
